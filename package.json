@@ -1,0 +1,24 @@
+{
+  "name": "ats-profile",
+  "version": "1.0.0",
+  "description": "team ats profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babyrun": "node-sass --include-path scss scss/main.scss   public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brykabry/ats.git"
+  },
+  "keywords": [
+    "profile"
+  ],
+  "author": "Bryan Kenneth San Jose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brykabry/ats/issues"
+  },
+  "homepage": "https://github.com/brykabry/ats#readme",
+  "devDependencies": {}
+}

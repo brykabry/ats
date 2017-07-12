@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  border: 0;
+  height: 100%; }
+
+.parallax {
+  /* The image used */
+  background-image: url("img/desktop.jpeg");
+  /* Full height */
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed; }
+
+.ats-main {
+  background-color: white;
+  height: 300px;
+  width: 100%; }

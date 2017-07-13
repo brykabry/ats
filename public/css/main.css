@@ -3,7 +3,7 @@ html, body {
   border: 0;
   height: 100%; }
 
-.parallax {
+.parallax-desktop {
   /* The image used */
   background-image: url("img/desktop.jpeg");
   /* Full height */

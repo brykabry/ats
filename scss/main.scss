@@ -4,20 +4,44 @@ html,body{
     height:100%;
 }
 
-.parallax-desktop {
-    /* The image used */
-        background-image: url("img/desktop.jpeg");
-    /* Full height */
-    height: 100%; 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-}
-.ats-main{
-    background-color:white;
-    height:300px;
-    width:100%;
+body{
+    //utilities------------------------------------------------------------------------------>
+    .ats-hidden{
+        display:none!important;
+    }
+    .ats-show{
+        display:initial!important;
+    }
+    //utilities end-------------------------------------------------------------------------->
 
+    .ats-header-container{
+        .ats-header{
+            display:inline;
+        }
+    }
+    .parallax{
+        .parallax-overlay{
+            width: 100%;
+            background-color: black;
+            height: 100%;
+            opacity: 0.5;
+        }
+    }
+    .parallax.desktop {
+        /* The image used */
+            background-image: url("img/desktop.jpeg");
+        /* Full height */
+        height: 100%; 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+    }
+    .ats-main{
+        background-color:white;
+        height:300px;
+        width:100%;
+
+    }
 }

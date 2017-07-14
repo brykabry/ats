@@ -3,7 +3,22 @@ html, body {
   border: 0;
   height: 100%; }
 
-.parallax-desktop {
+body .ats-hidden {
+  display: none !important; }
+
+body .ats-show {
+  display: initial !important; }
+
+body .ats-header-container .ats-header {
+  display: inline; }
+
+body .parallax .parallax-overlay {
+  width: 100%;
+  background-color: black;
+  height: 100%;
+  opacity: 0.5; }
+
+body .parallax.desktop {
   /* The image used */
   background-image: url("img/desktop.jpeg");
   /* Full height */
@@ -14,7 +29,7 @@ html, body {
   /* Create the parallax scrolling effect */
   background-attachment: fixed; }
 
-.ats-main {
+body .ats-main {
   background-color: white;
   height: 300px;
   width: 100%; }

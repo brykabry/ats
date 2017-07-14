@@ -13,6 +13,13 @@ body{
     .ats-show{
         display:block!important;
     }
+    .ats-overlay{
+        width:100%;
+        height:100%;
+        background-color:black;
+        opacity:0.75;
+        position:fixed;
+    }
     /*-------UTILITIES-------*/
 
     /*-------HAMBURGER ANIMATION-------*/
@@ -52,7 +59,7 @@ body{
         }
 
 
-        /* Icon 3 */
+        /* Ham & cheese css */
 
         .ats-header-hamburger span:nth-child(1) {
         top: 0px;
@@ -104,6 +111,11 @@ body{
             display:inline;
         }
     }
+
+
+
+
+    
     .parallax{
         .parallax-overlay{
             width: 100%;
@@ -122,11 +134,5 @@ body{
         background-size: cover;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
-    }
-    .ats-main{
-        background-color:white;
-        height:300px;
-        width:100%;
-
     }
 }

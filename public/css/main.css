@@ -7,12 +7,18 @@ body {
   /*-------UTILITIES-------*/
   /*-------UTILITIES-------*/
   /*-------HAMBURGER ANIMATION-------*/
-  /* Icon 3 */
+  /* Ham & cheese css */
   /*-------HAMBURGER ANIMATION-------*/ }
   body .ats-hidden {
     display: none !important; }
   body .ats-show {
     display: block !important; }
+  body .ats-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.75;
+    position: fixed; }
   body .ats-header-hamburger {
     width: 35px;
     height: 45px;
@@ -89,7 +95,3 @@ body {
     background-size: cover;
     /* Create the parallax scrolling effect */
     background-attachment: fixed; }
-  body .ats-main {
-    background-color: white;
-    height: 300px;
-    width: 100%; }

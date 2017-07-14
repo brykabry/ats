@@ -3,6 +3,7 @@ $("document").ready(function(){
         showHideMenu:function(){
                 $(".ats-header-hamburger").click(function(){
                     $(this).toggleClass("ats-show");
+                    $(".ats-hamburger-menu-content").toggleClass("ats-ham-show");
                 })
         }
     }

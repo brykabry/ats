@@ -9,11 +9,18 @@ body{
     .ats-hamburger-menu-content{
         width:0;
         height:0;
-        background-color:white;
-        transition:.20s ease-in-out;
-        border-radius:100%;
         position: fixed;
-        margin: -15%;
+        overflow:hidden;
+    }
+    .ats-background-menu{
+        background-color: white;
+        height: 75px;
+        width: 85px;
+        /* position: relative; */
+        border-radius: 100%;
+        transform: scale(0);
+        margin: 0;
+        transition: .50s ease-in-out;
     }
 
     .ats-header-hamburger{
@@ -45,10 +52,10 @@ body{
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+    -webkit-transition: .50s ease-in-out;
+    -moz-transition: .50s ease-in-out;
+    -o-transition: .50s ease-in-out;
+    transition: .50s ease-in-out;
     }
 
 
@@ -97,12 +104,15 @@ body{
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        transition: .25s ease-in-out;
+        transition: .50s ease-in-out;
         .ats-header-container{
             position:fixed;
-            .ats-header{
-                display:inline;
-            }
+        }            
+        .ats-header{
+            color:black;
+            position: relative;
+            transition: .5s ease-in-out;
+            opacity: 1;
         }
         .ats-introduction{
             width: 50%;
@@ -111,7 +121,7 @@ body{
             top: 50%;
             left: 50%;
             transform: translate3d(-50%,-50%,0);
-            transition: .25s ease-in-out; 
+            transition: .50s ease-in-out; 
         }
     }
 
@@ -143,6 +153,9 @@ body{
     .ats-hidden{
         display:none;
     }
+    .ats-invisible{
+        opacity:0;
+    }
     .ats-show span{
         display:block;
         background-color:black;
@@ -154,6 +167,9 @@ body{
         margin: 0;
         border: 0;
         opacity: 1;
+    }
+    .ats-cheese-show{
+        transform: scale(30);
     }
     .ats-overlay{
         width:100%;

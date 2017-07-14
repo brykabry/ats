@@ -2,9 +2,16 @@ $("document").ready(function(){
     var events = {
         showHideMenu:function(){
                 $(".ats-header-hamburger").click(function(){
-                    $(this).toggleClass("ats-show");
-                    $(".ats-hamburger-menu-content").toggleClass("ats-ham-show");
+                    methods.toggleMenu();
                 })
+        }
+    }
+    var methods={
+        toggleMenu:function(){
+            $(".ats-header-container .ats-header-hamburger").toggleClass("ats-show");
+            $(".ats-hamburger-menu-content .ats-background-menu").toggleClass("ats-cheese-show");
+            $(".ats-hamburger-menu-content .ats-header").toggleClass("ats-invisible");
+
         }
     }
     var init = function(){

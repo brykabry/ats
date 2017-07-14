@@ -12,11 +12,17 @@ body {
   body .ats-hamburger-menu-content {
     width: 0;
     height: 0;
-    background-color: white;
-    transition: .20s ease-in-out;
-    border-radius: 100%;
     position: fixed;
-    margin: -15%; }
+    overflow: hidden; }
+  body .ats-background-menu {
+    background-color: white;
+    height: 75px;
+    width: 85px;
+    /* position: relative; */
+    border-radius: 100%;
+    transform: scale(0);
+    margin: 0;
+    transition: .50s ease-in-out; }
   body .ats-header-hamburger {
     width: 35px;
     height: 45px;
@@ -44,10 +50,10 @@ body {
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out; }
+    -webkit-transition: .50s ease-in-out;
+    -moz-transition: .50s ease-in-out;
+    -o-transition: .50s ease-in-out;
+    transition: .50s ease-in-out; }
   body .ats-header-hamburger span:nth-child(1) {
     top: 0px; }
   body .ats-header-hamburger span:nth-child(2), body .ats-header-hamburger span:nth-child(3) {
@@ -74,11 +80,14 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    transition: .25s ease-in-out; }
+    transition: .50s ease-in-out; }
     body .ats-body .ats-header-container {
       position: fixed; }
-      body .ats-body .ats-header-container .ats-header {
-        display: inline; }
+    body .ats-body .ats-header {
+      color: black;
+      position: relative;
+      transition: .5s ease-in-out;
+      opacity: 1; }
     body .ats-body .ats-introduction {
       width: 50%;
       color: white;
@@ -86,7 +95,7 @@ body {
       top: 50%;
       left: 50%;
       transform: translate3d(-50%, -50%, 0);
-      transition: .25s ease-in-out; }
+      transition: .50s ease-in-out; }
   body .parallax .parallax-overlay {
     width: 100%;
     background-color: black;
@@ -104,6 +113,8 @@ body {
     background-attachment: fixed; }
   body .ats-hidden {
     display: none; }
+  body .ats-invisible {
+    opacity: 0 !important; }
   body .ats-show span {
     display: block;
     background-color: black; }
@@ -114,6 +125,8 @@ body {
     margin: 0;
     border: 0;
     opacity: 1; }
+  body .ats-cheese-show {
+    transform: scale(30); }
   body .ats-overlay {
     width: 100%;
     height: 100%;

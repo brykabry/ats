@@ -20,5 +20,7 @@
     "url": "https://github.com/brykabry/ats/issues"
   },
   "homepage": "https://github.com/brykabry/ats#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
 }

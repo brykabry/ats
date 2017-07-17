@@ -16,9 +16,9 @@ body {
     overflow: hidden; }
   body .ats-background-menu {
     background-color: white;
-    height: 75px;
+    height: 80px;
     width: 85px;
-    /* position: relative; */
+    position: absolute;
     border-radius: 100%;
     transform: scale(0);
     margin: 0;
@@ -74,6 +74,17 @@ body {
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg); }
+  body .ats-header-container {
+    position: fixed; }
+  body .ats-header {
+    color: black;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 15px;
+    transition: .5s ease-in-out;
+    opacity: 1; }
   body .ats-body {
     background-image: url("img/desktop.jpeg");
     height: 100%;
@@ -81,13 +92,6 @@ body {
     background-position: center;
     background-size: cover;
     transition: .50s ease-in-out; }
-    body .ats-body .ats-header-container {
-      position: fixed; }
-    body .ats-body .ats-header {
-      color: black;
-      position: relative;
-      transition: .5s ease-in-out;
-      opacity: 1; }
     body .ats-body .ats-introduction {
       width: 50%;
       color: white;
@@ -124,7 +128,9 @@ body {
     border-radius: 0;
     margin: 0;
     border: 0;
-    opacity: 1; }
+    opacity: 1;
+    z-index: 2;
+    min-width: 320px; }
   body .ats-cheese-show {
     transform: scale(30); }
   body .ats-overlay {

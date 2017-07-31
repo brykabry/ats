@@ -16,6 +16,11 @@ $("document").ready(function(){
     }
     var init = function(){
         events.showHideMenu();
+        $(function() {
+          $.scrollify({
+            section : ".ats-body",
+          });
+        });
     }
     init();
 

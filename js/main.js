@@ -1,4 +1,5 @@
 var $ = require('jQuery');
+var scrollify = require('jquery-scrollify');
 $("document").ready(function(){
     var events = {
         showHideMenu:function(){
@@ -18,7 +19,7 @@ $("document").ready(function(){
     var init = function(){
         events.showHideMenu();
         $(function() {
-          $.scrollify({
+          scrollify({
             section : ".ats-body",
           });
         });

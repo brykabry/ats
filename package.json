@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babyrun": "node-sass --include-path scss scss/main.scss   public/css/main.css"
+    "babyrun": "node-sass --include-path scss scss/main.scss   public/css/bundle.css",
+    "devilrun" : "browserify js/main.js > public/js/bundle.js",
   },
   "repository": {
     "type": "git",

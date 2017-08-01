@@ -1,3 +1,4 @@
+var $ = require('jQuery');
 $("document").ready(function(){
     var events = {
         showHideMenu:function(){

@@ -86,7 +86,6 @@ body {
     transition: .5s ease-in-out;
     opacity: 1; }
   body .ats-body {
-    background-image: url("img/desktop.jpeg");
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,6 +99,8 @@ body {
       left: 50%;
       transform: translate3d(-50%, -50%, 0);
       transition: .50s ease-in-out; }
+  body .background-desktop {
+    background-image: url("img/desktop.jpeg"); }
   body .parallax .parallax-overlay {
     width: 100%;
     background-color: black;

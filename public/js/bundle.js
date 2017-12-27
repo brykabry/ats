@@ -24,8 +24,8 @@ $("document").ready(function(){
             section : ".ats-body",
           });
         });
-    }
-    init();
+    }()
+    
 
 });
 },{"jQuery":2,"jquery-scrollify":3}],2:[function(require,module,exports){

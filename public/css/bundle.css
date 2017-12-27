@@ -101,6 +101,8 @@ body {
       transition: .50s ease-in-out; }
   body .background-desktop {
     background-image: url("img/desktop.jpeg"); }
+  body .background-netpark {
+    background-image: url("img/netpark.jpg"); }
   body .parallax .parallax-overlay {
     width: 100%;
     background-color: black;
